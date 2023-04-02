@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "oH2uEOwYhhjdwaTaPlPHoLeYY2jr44ihUh+8sfodCLg=",
+  "Source": "ConcreteMonitoring.Web.Entry",
+  "BasePath": "_content/ConcreteMonitoring.Web.Entry",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

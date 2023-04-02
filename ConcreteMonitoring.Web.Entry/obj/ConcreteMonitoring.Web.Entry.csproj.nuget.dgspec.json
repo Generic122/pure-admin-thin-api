@@ -1,0 +1,149 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\LzxProject\\ConcreteMonitoring\\ConcreteMonitoring.Web.Entry\\ConcreteMonitoring.Web.Entry.csproj": {}
+  },
+  "projects": {
+    "D:\\LzxProject\\ConcreteMonitoring\\ConcreteMonitoring.Core\\ConcreteMonitoring.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\LzxProject\\ConcreteMonitoring\\ConcreteMonitoring.Core\\ConcreteMonitoring.Core.csproj",
+        "projectName": "ConcreteMonitoring.Core",
+        "projectPath": "D:\\LzxProject\\ConcreteMonitoring\\ConcreteMonitoring.Core\\ConcreteMonitoring.Core.csproj",
+        "packagesPath": "C:\\Users\\lizho\\.nuget\\packages\\",
+        "outputPath": "D:\\LzxProject\\ConcreteMonitoring\\ConcreteMonitoring.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lizho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Furion": {
+              "target": "Package",
+              "version": "[4.8.7.31, )"
+            },
+            "Furion.Extras.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[4.8.7.31, )"
+            },
+            "Furion.Extras.ObjectMapper.Mapster": {
+              "target": "Package",
+              "version": "[4.8.7.31, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\LzxProject\\ConcreteMonitoring\\ConcreteMonitoring.Web.Entry\\ConcreteMonitoring.Web.Entry.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\LzxProject\\ConcreteMonitoring\\ConcreteMonitoring.Web.Entry\\ConcreteMonitoring.Web.Entry.csproj",
+        "projectName": "ConcreteMonitoring.Web.Entry",
+        "projectPath": "D:\\LzxProject\\ConcreteMonitoring\\ConcreteMonitoring.Web.Entry\\ConcreteMonitoring.Web.Entry.csproj",
+        "packagesPath": "C:\\Users\\lizho\\.nuget\\packages\\",
+        "outputPath": "D:\\LzxProject\\ConcreteMonitoring\\ConcreteMonitoring.Web.Entry\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lizho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\LzxProject\\ConcreteMonitoring\\ConcreteMonitoring.Core\\ConcreteMonitoring.Core.csproj": {
+                "projectPath": "D:\\LzxProject\\ConcreteMonitoring\\ConcreteMonitoring.Core\\ConcreteMonitoring.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
